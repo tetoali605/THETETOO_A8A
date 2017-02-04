@@ -208,31 +208,64 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
     "broadcast",
-    "download_media",
-    "invite",
+    "lock_bot",
+    "lock_join",
+    "lock_tag",
+    "lock_user",
+    "banbot",
+    "ar_help",
+    "adddsudo",
+    "addbots",
+    "addreplay",
+    "addtime",
+    "AR_ME",
+    "admin",
     "all",
+    "anjb",
+    "ar-info",
+    "arabis_lock",
+    "redis",
+    "ar-supergruop",
+    "banhammer",
+    "gette",
+    "Kickall1",
+    "l_l_lo",
     "leave_ban",
-    "admin"
+    "lock_media",
+    "msg_checks",
+    "owners",
+    "plugins",
+    "redis",
+    "setwelcome",
+    "stats",
+    "tagall",
+    "whitelist",
+    "anti_spam",
+    "badword",
+    "repaly",
+    "delete",
+    "ar_me",
+    "aboasola",
+    "dev",
+    "bot",
+    "ax",
+    "ingroup",
+    "echo.",
+    "lock_fwd",
+    "lock_fwd",
+    "kickm",
+    "lock_link",
+    "hello",
+   "addbot1"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {246536126,250062838,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/tetoali605/THETETOO_A8A
 
 Our team!
 Alphonse (@Iwals)
